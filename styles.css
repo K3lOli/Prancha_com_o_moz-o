@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main {
+    letter-spacing: 7px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+section h1 {
+    color: var(--purple);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 14px;
+    letter-spacing: 0;
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* section div span {
+    font-size: 14px;
+} */
+
+section p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 72px;
+    color: var(--black);
+}
+
+timer {
+    width: 50%;
+}
+
+input::placeholder {
+    color: var(--black);
+    font-size: 72px;
+}
+
+input {
+    padding-left: 2px;
+    border: none;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: none;
+    width: 5vw;
+    height: 5vw;
+    outline: none;
+    color: var(--black);
+    font-size: 72px;
+
+    /* padding-left: 2px;
+    margin-top: 10vw;
+    border: none;
+    background-color: none;
+    width: 10vw;
+    height: 23vw;
+    outline: none;
+    color: var(--black);
+    font-size: 72px; */
+}
+
+#mostrador {
+    display: none;
+}
+
+#mostrador.visibility {
+    display: flex;
+}
+
+#timer {
+    display: flex;
+}
+
+#timer.visibility {
+    display: none;
+}
+
+#preencha {
+    display: none;
+}
+
+#preencha.visibility {
+    display: flex;
+    color: red;
+}
+
+span#legenda {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--light-grey);
+}
+
+span#pontos {
+    margin-top: 15px;
+}
+
+div {
+    width: 50%;
+}
+
+button {
+    font-size: 16px;
+    color: white;
+    background-color: var(--purple);
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+
+header img {
+    width: 100vw;
+    top: 0;
+}
+
+footer img {
+    width: 100vw;
+}

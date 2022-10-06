@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styleMobile.css">
+    <title>Countdown</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/top-image.svg" alt="">
+    </header>
+    <div>
+
+    </div>
+    <main>
+        <section>
+            <h1>HORA DA PRANCHA</h1>
+            <div>
+
+
+
+
+            </div>
+
+            <div id="mostrador">
+                <p><span id="legenda">HORAS</span><span id="dias">00</span></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">MINUTOS</span><span id="horas">00</span></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">SEGUNDOS</span><span id="minutos">00</span></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">CENTÉSIMOS</span><span id="segundos">00</span></p>
+            </div>
+
+
+            <div id="timer" data-opacity="input">
+                <p><span id="legenda">HORAS</span><input id="hours" type="text" placeholder="00"></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">MINUTOS</span><input id="minutes" type="text" placeholder="00"></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">SEGUNDOS</span><input id="seconds" type="text" placeholder="00"></p>
+                <span id="pontos">:</span>
+                <p><span id="legenda">CENTÉSIMOS</span><input id="miliseconds" type="text" placeholder="00"></p>
+
+
+
+
+            </div>
+
+            <p id="preencha">OS CAMPOS ESTÃO VAZIOS</p>
+
+            <div>
+                <button onclick="contador()">INICIAR</button>
+                <button id="stop" onclick="stop()">STOP</button>
+            </div>
+
+
+        </section>
+
+        <div>
+            <img src="./images/prancha.png" alt="">
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <img src="./images/bottom-image.svg" alt="">
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+@media(max-width:1000px) {
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    img {
+        object-fit: cover;
+        width: 80vw;
+        margin-top: 7vw;
+    }
+
+    header img {
+        margin-top: 0;
+    }
+
+    span,
+    input,
+    input::placeholder {
+        font-size: 7vw;
+        color: var(--black);
+    }
+
+    input,
+    input::placeholder {
+        font-size: 7vw;
+        width: 10vw;
+        height: 10vw;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    section h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    section div {
+        gap: 1vw;
+    }
+
+    h2 {
+        margin-top: 3vh;
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
